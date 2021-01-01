@@ -603,8 +603,8 @@ div.conteneurActivitePetit img{
 @media screen and (min-width: 481px) and (max-width: 1024px){
 
 	/* ENTETE */
-	header{
-
+	nav#liensMenu > div:first-child{
+		flex: 3;
 	}
 	/* FIN ENTETE */
 
@@ -613,7 +613,62 @@ div.conteneurActivitePetit img{
 	/* FIN PIED DE PAGE
 
 	/* HEBERGEMENTS + POP */
+	div#conteneurPrincipal{
+		flex-direction: column;
+		padding: 0px;
+	}
 
+	section#conteneurHebergements{
+		width: 84%;
+		order: 2;
+	}
+
+	section#conteneurHebergementsPop{
+		width: 84%;
+		order: 1;
+		margin: 30px;
+	}
+
+	section#conteneurActivites{
+		order: 3;
+		width: 90%;
+	}
+
+	div#listeHebergementsPop{
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	div#listeHebergementsPop > a{
+		width: 30%;
+	}
+
+	div#listeHebergementsPop img{
+		border-radius: 20px 20px 0px 0px;
+	}
+
+	div.conteneurHebergementPop{
+		flex-direction: column;
+	}
+
+	div#listeActivites{
+		flex-direction: row;
+	}
+
+	div#listeActivites > a{
+		width: 30%;
+		height: 45%;
+	}
+
+	div#listeActivites img{
+		height: 200px;
+	}
+
+	div#listeActivites h3{
+		padding: 0px;
+		margin: 5px 0px 0px 10px;
+	}
 	/* FIN HEBERGEMENTS + POP */
 
 	/* ACTIVITES */
@@ -621,7 +676,14 @@ div.conteneurActivitePetit img{
 	/* FIN ACTIVITES */
 
 	/* OPTIONS & FILTRES */
+	button.optionFiltre{
+		margin-bottom: 10px;
+	}
 
+	div#boxOptions{
+		padding: 0px;
+		margin-left: 30px;
+	}
 	/* FIN OPTIONS & FILTRES */
 }
 
