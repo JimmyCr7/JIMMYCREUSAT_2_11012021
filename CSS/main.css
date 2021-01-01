@@ -38,7 +38,6 @@ img{
 }
 
 /***** ENTETE FINALE *****/
-
 header{
 	width: 100%;
 	height: auto;
@@ -176,6 +175,10 @@ button#btnRechercher{
 	background-color: #0065FC;
 	width: 110px;
 	height: 44px;
+}
+
+button#btnRechercher i{
+	display: none;
 }
 
 div#listeOptions{
@@ -449,8 +452,9 @@ div.conteneurActivitePetit img{
 
 /* FIN VERSION DESKTOP */
 
+
 /* VERSION MOBILE */
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media all and (max-width: 480px){
 
 	h2{
 		margin-left: 15px;
@@ -594,13 +598,28 @@ div.conteneurActivitePetit img{
 	button.optionFiltre{
 		margin-bottom: 10px;
 	}
+
+	button#btnRechercher{
+		width: 50px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+	}
+
+	button#btnRechercher span{
+		display: none;
+	}
+
+	button#btnRechercher i{
+		display: inline-block;
+	}
 	/* FIN OPTIONS & FILTRES */
 }
 
 /* FIN VERSION MOBILE */
 
 /* DEBUT VERSION TABLETTE */
-@media screen and (min-width: 481px) and (max-width: 1024px){
+@media all and (min-width: 481px) and (max-width: 1024px){
 
 	/* ENTETE */
 	nav#liensMenu > div:first-child{
@@ -666,8 +685,8 @@ div.conteneurActivitePetit img{
 	}
 
 	div#listeActivites h3{
+		margin: 10px 10px 0px 10px;
 		padding: 0px;
-		margin: 5px 0px 0px 10px;
 	}
 	/* FIN HEBERGEMENTS + POP */
 
@@ -683,6 +702,21 @@ div.conteneurActivitePetit img{
 	div#boxOptions{
 		padding: 0px;
 		margin-left: 30px;
+	}
+
+	button#btnRechercher{
+		width: 50px;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+	}
+
+	button#btnRechercher span{
+		display: none;
+	}
+
+	button#btnRechercher i{
+		display: inline-block;
 	}
 	/* FIN OPTIONS & FILTRES */
 }
