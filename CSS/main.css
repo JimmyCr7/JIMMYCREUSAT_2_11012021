@@ -454,7 +454,7 @@ div.conteneurActivitePetit img{
 
 
 /* VERSION MOBILE */
-@media all and (max-width: 480px){
+@media all and (max-width: 576px){
 
 	img:not(#logoSite){
 		height: 200px !important;
@@ -636,7 +636,7 @@ div.conteneurActivitePetit img{
 /* FIN VERSION MOBILE */
 
 /* DEBUT VERSION TABLETTE */
-@media all and (min-width: 481px) and (max-width: 1024px){
+@media all and (min-width: 577px) and (max-width: 1200px){
 
 	/* ENTETE */
 	nav#liensMenu > div:first-child{
