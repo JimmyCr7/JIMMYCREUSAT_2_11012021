@@ -642,6 +642,9 @@ div.conteneurActivitePetit img{
 	nav#liensMenu > div:first-child{
 		flex: 3;
 	}
+
+	div#conteneurLogo{
+		float: 3;	}
 	/* FIN ENTETE */
 
 	/* PIED DE PAGE */
