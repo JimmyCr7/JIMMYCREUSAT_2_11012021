@@ -250,7 +250,7 @@ span#infoIcon > i{
 
 /***** HEBERGEMENTS + POP *****/
 span.note > i.etoilePleine{
-	color: gold;
+	color: #0065FC;
 }
 
 span.note > i.etoileVide{
@@ -484,10 +484,12 @@ div.conteneurActivitePetit img{
 
 	nav#liensMenu > div:nth-child(2){
 		order: 3;
+		border-bottom: 2px solid #F2F2F2;
 	}
 
 	nav#liensMenu > div:nth-child(3){
 		order: 4;
+		border-bottom: 2px solid #F2F2F2;
 	}
 
 	nav#liensMenu > div:not(:first-child):not(:last-child){
@@ -642,7 +644,7 @@ div.conteneurActivitePetit img{
 	}
 
 	div#conteneurLogo{
-		float: 3;	
+		flex: 3;	
 	}
 	/* FIN ENTETE */
 
@@ -661,15 +663,15 @@ div.conteneurActivitePetit img{
 		order: 2;
 	}
 
+	section#conteneurActivites{
+		order: 3;
+		width: 90%;
+	}
+
 	section#conteneurHebergementsPop{
 		width: 84%;
 		order: 1;
 		margin: 30px;
-	}
-
-	section#conteneurActivites{
-		order: 3;
-		width: 90%;
 	}
 
 	div#listeHebergementsPop{
